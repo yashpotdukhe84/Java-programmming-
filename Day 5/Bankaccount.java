@@ -1,10 +1,10 @@
-class BankAccount {
+class Bank {
 
     String accountHolder;
     double balance;
 
     // Constructor
-    BankAccount(String accountHolder, double balance) {
+    Bank(String accountHolder, double balance) {
         this.accountHolder = accountHolder;
         this.balance = balance;
     }
@@ -32,11 +32,11 @@ class BankAccount {
     }
 }
 
-public class bankaccount {
+ public  class Bankaccount {
 
     public static void main(String[] args) {
 
-        BankAccount account = new BankAccount("Yash", 5000);
+        Bank account = new Bank("Yash", 5000);
 
         System.out.println("Account Holder: " + account.accountHolder);
         System.out.println("Initial Balance: " + account.balance);
@@ -44,5 +44,6 @@ public class bankaccount {
         account.deposit(2000);
 
         account.withdraw(1500);
+
     }
 }
