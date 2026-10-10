@@ -3,7 +3,7 @@ class employee {
     double salary = 30000;
 }
 
-class manager extends employee {
+class manager extends main {
     double salary = 60000;
 
     void displaysalary() {
