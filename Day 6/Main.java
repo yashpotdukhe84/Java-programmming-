@@ -1,9 +1,9 @@
 
-class main {
+class Employee {
     String name;
     double salary;
 
-    main(String name, double salary) {
+    Employee(String name, double salary) {
         this.name = name;
         this.salary = salary;
     }
@@ -14,7 +14,7 @@ class main {
     }
 }
 
-class Manager extends employee {
+class Manager extends Employee {
     String dept;
 
     Manager(String name, double salary, String dept) {
@@ -32,7 +32,7 @@ class Manager extends employee {
 
 public class Main {
     public static void main(String[] args) {
-        manager m = new manager("Yash", 50000, "IT");
+        Manager m = new Manager("Yash", 50000, "IT");
         m.displayInfo();
     }
 }

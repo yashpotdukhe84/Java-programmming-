@@ -3,12 +3,12 @@ class employee {
     double salary = 30000;
 }
 
-class manager extends main {
+class manager extends employee {
     double salary = 60000;
 
     void displaysalary() {
-        System.out.println("manager salary " + salary);
-        System.out.println("employee salary " + super.salary);
+        System.out.println("Manager salary: " + salary);
+        System.out.println("Employee salary: " + super.salary);
     }
 }
 

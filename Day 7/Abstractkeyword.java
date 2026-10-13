@@ -24,7 +24,7 @@ class CreditCard extends Payment {
     }
 }
 
-public class Abstract {
+public class Abstractkeyword {
     public static void main(String[] args) {
 
         Payment p1 = new UPI();
