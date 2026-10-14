@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class max_minElement {
     public static void main(String[] args) {
-    Scanner sc =new Scanner(System.in);
+        
+       Scanner sc =new Scanner(System.in);
        System.out.println("enter the size of array");
        int n =sc.nextInt();
 
